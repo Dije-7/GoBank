@@ -37,7 +37,7 @@ make run-seed (using this will seed an account)
 ```
 4. The API server will start running on http://localhost:3000.
 
-##API Endpoints
+## API Endpoints
 - POST /login: Log in to the system and obtain a JWT token.
 - POST /account: Create a new user account (admin only).
 - GET /account: View all user accounts (admin only).
@@ -46,7 +46,7 @@ make run-seed (using this will seed an account)
 - POST /set-admin/{accountNumber}: Set admin status for an account (admin only).
 - POST /transfer: Perform a fund transfer between accounts (authenticated users only).
 
-##Technologies Used
+## Technologies Used
 - Go (Golang): The core language for building the robust API.
 - Dockerized PostgreSQL: Employ Docker to run a PostgreSQL database instance, simplifying deployment and setup.
 - JSON Web Tokens (JWT): Ensure secure authentication and authorization of API requests.
