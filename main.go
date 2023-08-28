@@ -55,23 +55,3 @@ func main() {
 	server := NewAPIServer(":3000", store)
 	server.Run()
 }
-
-// Postgres
-// docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
-// pass - gobank
-
-//Accounts and their JWT
-
-// Admin - 46798
-// eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50TnVtYmVyIjo0Njc5OCwiZXhwaXJlc0F0IjoxNTAwMCwiaXNBZG1pbiI6dHJ1ZX0.QF_6k6Fm74dLNWwTYxllFE20EjdGfGZlpmlPeQVFDs8
-
-// 440084
-// eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50TnVtYmVyIjo0NDAwODQsImV4cGlyZXNBdCI6MTUwMDAsImlzQWRtaW4iOmZhbHNlfQ.XEQXlPvRxEsWdtEDfxTBxeR7hVvy90nFBVfb2mmRYXc
-
-// {
-// 	"firstname":"admin",
-// 	"lastname":"2",
-// 	"password":"dhwajjain",
-// 	"balance":1000,
-// 	"isAdmin":true
-//   }

@@ -381,12 +381,3 @@ func getID(r *http.Request) (int, error) {
 	}
 	return id, nil
 }
-
-// func getNumber(r *http.Request) (int64, error) {
-// 	numberStr := mux.Vars(r)["number"]
-// 	number, err := strconv.ParseInt(numberStr, 10, 64)
-// 	if err != nil {
-// 		return 0, fmt.Errorf("invalid number given: %s", numberStr)
-// 	}
-// 	return number, nil
-// }
